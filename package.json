@@ -1,0 +1,25 @@
+{
+  "name": "pw-wallet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wallet-app": "parcel -p 1234 public/*.html",
+    "client-app": "parcel -p 9999 --open -- test-client/test-client.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "arweave": "^1.7.1",
+    "human-crypto-keys": "^0.1.4",
+    "lighterhtml": "^3.1.3",
+    "penpal": "^5.0.1",
+    "rsa-pem-to-jwk": "^1.1.3"
+  }
+}
